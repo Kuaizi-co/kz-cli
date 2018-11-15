@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Kuaizi-co/kz-cli/issues"
   },
-  "homepage": "https://github.com/Kuaizi-co/kz-cli#readme"
+  "homepage": "https://github.com/Kuaizi-co/kz-cli#readme",
+  "devDependencies": {
+    "vuepress": "^0.14.5"
+  }
 }
