@@ -4,7 +4,6 @@
   "description": "The workflow tools for Front-End development",
   "main": ".eslintrc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "deploy": "sh ./bin/deploy.sh"
