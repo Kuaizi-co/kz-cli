@@ -21,6 +21,6 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:kuaizi-co/kz-cli.git master:gh-pages
-git push -f https://github.com/Kuaizi-co/kz-cli.git master:gh-pages
+git push --force --quiet "https://${GH_TOKEN}@github.com/Kuaizi-co/kz-cli.git" master:gh-pages
 
 cd -
