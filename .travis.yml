@@ -2,6 +2,6 @@ language: node_js
 node_js: stable
 install:
 - npm cache clean --force
-- npm install
+- npm install vuepress
 after_success:
 - sh ./bin/deploy.sh
