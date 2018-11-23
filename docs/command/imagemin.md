@@ -4,7 +4,7 @@
 kz imagemin [-s, --src] [image folder]
 ```
 
-## optins
+## options
 
 * `-s, --src` 可选，压缩指定目录图片
 
@@ -15,7 +15,7 @@ kz imagemin [-s, --src] [image folder]
 可以自定义目录下, *注意目录有没有node_modules，请不要乱试*
 
 ```
-> cd myproject
+> cd my-project
 > kz imagemin ./
 ```
 
