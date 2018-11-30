@@ -21,7 +21,8 @@ module.exports = {
           ['/command/create', 'create'],
           ['/command/imagemin', 'imagemin'],
           ['/command/publish', 'publish'],
-          ['/command/update', 'update']
+          ['/command/update', 'update'],
+          ['/command/serve', 'serve']
         ]
       },
       {
