@@ -45,7 +45,7 @@
 {
   "kzConfig": {
     outputDir: './dist',
-    assetsDir: './static',
+    assetsDir: 'static',
     template: './syncdir/to_user',
     static: './syncdir/to_static',
     assetsPublicPath: '/static'
