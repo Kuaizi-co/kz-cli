@@ -5,9 +5,25 @@
 ```
 > vue --version
 > vue不是内部命令
+> yarn global add @vue/cli
+# or
 > npm install @vue/cli -g
 # 或者
 > npm update @vue/cli -g
+```
+
+### 安装kz-cli
+
+```
+> yarn global add @kuaizi/kz-cli
+# 或
+> npm i @kuaizi/kz-cli -g
+```
+
+### 查看是否安装了`kz-cli`
+
+```
+kz --help
 ```
 
 已安装了 `vue-cli 3.x` 命令工具后，在所在项目目录中命令窗口，可以愉快的使用 `update` 命令来更新 `vue-cli 3.x` 的 `vue.config.js` 配置文件，并自动安装依赖。
@@ -27,11 +43,19 @@
 
 检测代码符不符合新的`eslint`规则，先修改本地不符合规则的文件
 
+```
+yarn lint
+```
+
+*提示  `Cannot find module '@vue/cli-plugin-babel'`, 执行`rm yarn.lock`, 重新安装*
+
 ## 关于开发
 
 * Development
 
 ```
+yarn dev
+# or
 npm run dev
 ```
 
