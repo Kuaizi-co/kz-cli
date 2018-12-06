@@ -1,5 +1,7 @@
 # update-command
 
+更新`kz-cli`所有的依赖包，执行`npm install`
+
 ```
-update all command to lastest version
+kz update-command
 ```

@@ -3,6 +3,9 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+git config --global user.name "kz-fe"
+git config --global user.email "shaojinhong@kuaizi.co"
+
 # 生成静态文件
 npm run docs:build
 
