@@ -60,3 +60,4 @@
 * `template`  同步到线上仓库模板
 * `static`    同步到线上CDN地址目录
 * `assetsPublicPath` 线上CDN地址
+* `replace: [false|true]` 是否要替换版本号
